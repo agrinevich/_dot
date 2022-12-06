@@ -1,1 +1,37 @@
-
+{
+    "breadcrumbs.enabled": true,
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 12,
+    "editor.renderWhitespace": "all",
+    // "editor.renderControlCharacters": false,
+    "editor.foldingStrategy": "indentation",
+    "editor.detectIndentation": false,
+    "editor.wordWrapColumn": 100,
+    "files.trimTrailingWhitespace": true,
+    "git.autoRepositoryDetection": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.colorTheme": "One Monokai",
+    // "editor.defaultFormatter": "sfodje.perltidy",
+    "editor.formatOnSave": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.unicodeHighlight.allowedLocales": {
+        "ru": true
+    },
+    "editor.unicodeHighlight.allowedCharacters": {
+        "і": true
+    },
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "perl-toolbox.syntax.includePaths": [
+        "$workspaceRoot",
+        "$workspaceRoot/lib",
+        // "/media/a153/WD1TB/zassets/viburnum/lib"
+    ],
+    "perl-toolbox.lint.perlcriticProfile": "/home/a153/.perlcriticrc",
+    "perltidy.profile": "/home/a153/.perltidyrc",
+    "perl-toolbox.lint.useProfile": true,
+    "go.toolsManagement.autoUpdate": true,
+    // "perl-toolbox.lint.excludedPolicies": [],
+    // "[go]": {
+    //     "editor.defaultFormatter": "golang.go"
+    // },
+}
