@@ -1,1 +1,109 @@
-
+wtf:
+  colors:
+    border:
+      focusable: darkslateblue
+      focused: orange
+      normal: gray
+    checked: "gray"
+  grid:
+    columns: [44, 44, 44]
+    rows: [10, 10, 10, 10, 10, 10]
+  refreshInterval: 1
+  mods:
+    europe_time:
+      title: "Europe"
+      type: clocks
+      enabled: true
+      locations:
+        UTC: "Etc/UTC"
+        Berlin: "Europe/Berlin"
+        Kiev: "Europe/Kiev"
+        Moscow: "Europe/Moscow"
+      position:
+        top: 0
+        left: 0
+        height: 1
+        width: 1
+      refreshInterval: 5
+      sort: "chronological"
+    asia_time:
+      title: "Asia"
+      type: clocks
+      enabled: true
+      locations:
+        Kamchatka: "Asia/Kamchatka"
+        Shanghai: "Asia/Shanghai"
+        Tokyo: "Asia/Tokyo"
+        Melbourne: "Australia/Melbourne"
+      position:
+        top: 0
+        left: 1
+        height: 1
+        width: 1
+      refreshInterval: 5
+      sort: "chronological"
+    america_time:
+      title: "America"
+      type: clocks
+      enabled: true
+      locations:
+        Vancouver: "America/Vancouver"
+        NY: "America/New_York"
+        LA: "America/Los_Angeles"
+        Alaska: "US/Alaska"
+      position:
+        top: 0
+        left: 2
+        height: 1
+        width: 1
+      refreshInterval: 5
+      sort: "chronological"
+    feedreader:
+      enabled: true
+      feeds:
+      - https://static.censor.net/censornet/rss/rss_uk_news.xml
+      feedLimit: 20
+      position:
+        top: 1
+        left: 0
+        width: 3
+        height: 3
+      refreshInterval: 300s
+    yfinance:
+      enabled: true
+      title: "Yahoo Finance"
+      sort: true
+      position:
+        top: 4
+        left: 0
+        width: 1
+        height: 1
+      refreshInterval: 1m
+      symbols:
+        - "ETH-USD"
+        - "BTC-USD"
+        - "STORJ-USD"
+    resourceusage:
+      cpuCombined: false
+      enabled: true
+      position:
+        top: 4
+        left: 1
+        height: 1
+        width: 1
+      refreshInterval: 1s
+      showCPU: true
+      showMem: true
+      showSwp: true
+    prettyweather:
+      enabled: true
+      city: kiev
+      refreshInterval: 1h
+      unit: "m"
+      view: 0
+      language: "en"
+      position:
+        top: 4
+        left: 2
+        height: 1
+        width: 1
