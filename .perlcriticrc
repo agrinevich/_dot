@@ -1,0 +1,7 @@
+[-Modules::RequireFilenameMatchesPackage]
+[-RegularExpressions::RequireExtendedFormatting]
+[-RegularExpressions::RequireLineBoundaryMatching]
+[-RegularExpressions::RequireDotMatchAnything]
+[Documentation::RequirePodSections]
+lib_sections    = NAME | SYNOPSIS | DESCRIPTION | AUTHOR
+script_sections = NAME | USAGE | OPTIONS | ARGUMENTS | DESCRIPTION | AUTHOR
