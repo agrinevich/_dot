@@ -1,6 +1,6 @@
 # _dot
 
-curl -o ~/.tmux.conf https://raw.githubusercontent.com/agrinevich/_settings/master/.tmux.conf
+curl -o ~/.tmux.conf https://raw.githubusercontent.com/agrinevich/_dot/main/.tmux.conf
 
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
