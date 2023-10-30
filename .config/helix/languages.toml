@@ -2,3 +2,4 @@
 name = "perl"
 auto-format = true
 formatter = { command = "perltidy" }
+file-types = ["pm", "pl", "cgi", "t"]
