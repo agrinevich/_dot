@@ -3,3 +3,13 @@ name = "perl"
 auto-format = true
 formatter = { command = "perltidy" }
 file-types = ["pm", "pl", "cgi", "t"]
+
+[[language]]
+name = "c"
+scope = "source.c"
+injection-regex = "c"
+file-types = ["c"]
+comment-token = "//"
+language-servers = [ "clangd" ]
+indent = { tab-width = 2, unit = "  " }
+auto-format = true
