@@ -11,5 +11,5 @@ injection-regex = "c"
 file-types = ["c"]
 comment-token = "//"
 language-servers = [ "clangd" ]
-indent = { tab-width = 2, unit = "  " }
+indent = { tab-width = 4, unit = "  " }
 auto-format = true
