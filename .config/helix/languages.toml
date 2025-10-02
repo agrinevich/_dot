@@ -8,8 +8,9 @@ file-types = ["pm", "pl", "cgi", "t"]
 name = "c"
 scope = "source.c"
 injection-regex = "c"
-file-types = ["c"]
+file-types = ["c","h"]
 comment-token = "//"
 language-servers = [ "clangd" ]
 indent = { tab-width = 4, unit = "  " }
 auto-format = true
+formatter = { command = "clang-format" }
